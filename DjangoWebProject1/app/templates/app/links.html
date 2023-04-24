@@ -1,0 +1,15 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+<div class="jumbotron">
+    <h2>Полезные ресурсы для ознакомления</h2>
+    <p>
+        <a href="https://www.cybersport.ru/" target="_blank"> <img src="{% static 'app/content/cybersport.jpg' %}" alt="Cybersport" width="300" height="135" /></a>
+        <a href="https://dota2.ru/" target="_blank"> <img src="{% static 'app/content/logo.jpg' %}" alt="dota2" width="300" height="135" /></a>
+        <a href="https://www.opendota.com/" target="_blank"> <img src="{% static 'app/content/opendota.jpg' %}" alt="opendota" width="300" height="135" /></a>
+    </p>
+</div>
+
+{% endblock %}
